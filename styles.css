@@ -1,0 +1,149 @@
+* {
+    background-color: #C2C5AA;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+    font-family: "Josefin Sans";
+    background-color: #B6AD90;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav div a {
+    background-color: #B6AD90;
+}
+
+nav a:link {
+    color: #414833;
+}
+
+nav a:visited {
+    color: #582F0E;
+}
+
+h1 {
+    color: #B77729;
+    text-align: center;
+    font-family: "Playfair Display";
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Zilla Slab";
+    text-align: center;
+    color: #024b30;
+    text-decoration: underline;
+}
+
+#about_us p {
+    font-family: Montserrat;
+    color: #582F0E;
+    text-align: center;
+}
+
+#upcoming_events h4 {
+    color:#B77729;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+#upcoming_events img {
+    width: 15rem;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-direction: row;
+    text-align: center;
+}
+
+.catan, .betrayal, .mysterium, .wingspan, .azul {
+    flex-basis: 4rem;
+}
+
+#upcoming_events p {
+    font-family: "Josefin Sans";
+    width: 75%;
+    color:#024b30;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+}
+
+.betrayal p {
+    margin-top: .125rem;
+}
+
+#games p {
+    color:#582F0E;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    font-family: "Josefin Sans";
+    border-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.supply {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-direction: row;
+    text-align: center;
+}
+
+.supply img {
+    height: auto;
+    width: 80%;
+}
+
+.isle, .ticket_to_ride, .wonders, .pandemic, .werewolf, .avalon {
+    flex-basis: 15rem;
+}
+
+#games h3 {
+    color: #B77729;
+    font-family: "Zilla Slab";
+    text-decoration: underline;
+}
+
+.bottom {
+    display: flex;
+    justify-content:space-around;
+    gap: 0.125rem;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#contact {
+    max-width: 50%;
+}
+
+#contact h3 {
+    color: #B77729;
+    font-family: "Josefin Sans";
+    text-decoration: underline;
+    text-align: center;
+}
+
+#contact li {
+    color: #024b30;
+    font-family: Montserrat;
+    list-style: none;
+}
